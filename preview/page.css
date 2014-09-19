@@ -1,0 +1,70 @@
+* {
+  font-family: arial;
+}
+
+.app-code div {
+  width: 100%;
+  margin: 0 auto;  
+}
+
+.app-code div p {  
+  margin-top: 0px;
+}
+
+div#headerText {
+  height: 122px;
+  background: ${bg_color};
+}
+
+div#headerTextInner {
+  padding: 23px 0 0 20px; 
+}
+
+div#headerTextInner p {
+  margin: 0 0 5px 0; 
+}
+
+div#bodyDiv {
+  height: 157px;
+}
+
+div#bodyDiv div {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  background: #F8F8F8;
+}
+
+div#bodyDiv div#bodyText p:nth-child(1) {
+  padding-top: 30px;
+}
+
+div#bodyDiv div#bodyText p {
+  width: 150px;
+}
+
+div#bodyDiv #imageDiv {
+  float: left;
+}
+
+div#bodyDiv #bodyText {
+  float: right;
+}
+
+.app-code hr {
+  margin: 0;
+  border: 1px solid ${bg_color};
+}
+
+div#buttonText {
+  height: 52px;
+  background: #DDDEDE;
+  color: ${bg_color};
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+div#buttonText p {
+  line-height: 52px;
+}
