@@ -58,7 +58,7 @@ div#bodyDiv #bodyText {
 
 div#buttonText {
   height: 52px;
-  background: #DDDEDE;
+  background: ${button_bg_color};
   color: ${bg_color};
   font-size: 22px;
   font-weight: bold;
