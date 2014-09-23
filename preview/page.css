@@ -21,6 +21,7 @@ div#headerText {
   background-size: 320px 124px;
   background-repeat: no-repeat;
   background-color: ${bg_color};
+  overflow: hidden;
 }
 
 div#headerTextInner {
