@@ -62,13 +62,13 @@ div#bodyDiv #bodyText {
 div#buttonText {
   height: 52px;
   background: ${button_bg_color};
+}
+
+div#buttonText p {
   color: ${bg_color};
   font-size: 22px;
   font-weight: bold;
   text-align: center;
-}
-
-div#buttonText p {
   line-height: 52px;
 }
 
