@@ -1,1 +1,0 @@
-$('#description').text(BL.getDescription());
