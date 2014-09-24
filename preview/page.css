@@ -2,17 +2,21 @@
   font-family: arial;
 }
 
-.app-code p {
+p {
   padding: 0;
 }
 
-.app-code div {
+div {
   width: 100%;
   margin: 0 auto;  
 }
 
-.app-code div p {  
+div p {  
   margin-top: 0px;
+}
+
+div#templateDivInner {
+  width: 320px;
 }
 
 div#headerText {
@@ -55,11 +59,15 @@ div#bodyDiv #imageDiv {
   float: left;
 }
 
+div#bodyDiv #imageDiv img {
+  height: 100%;
+}
+
 div#bodyDiv #bodyText {
   float: right;
 }
 
-.app-code hr {
+hr {
   margin: 0;
   border: 1px solid ${bg_color};
 }
@@ -75,17 +83,21 @@ div#buttonText p {
   font-weight: bold;
   text-align: center;
   line-height: 52px;
-}
+} 
 
 div#overlay {
+  margin: 0;
   display: none;
   background: rgba(74, 74, 74, 0.90);
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
-  text-align: center;
   padding-top: 24px;
+}
+
+div#overlay p {
+  text-align: center;
 }
 
 div#overlay div#tagImage {
@@ -110,3 +122,40 @@ div#overlay p#confTop {
 div#overlay p#confBottom {
   font-size:14px;
 }
+
+/** BEGIN styles for tablet version **/
+
+div#templateDiv.tablet-version {
+  background: #474747;
+}
+
+.tablet-version div#templateDivInner {
+  width: 630px;
+}
+
+.tablet-version div#headerText {
+  height: 200px;
+  background-size: 600px 202px;
+}
+
+.tablet-version div#bodyDiv {
+  height: 277px;
+}
+
+.tablet-version div#bodyDiv div#bodyText p {
+  width: 300px;
+  line-height: 40px;
+}
+
+.tablet-version div#overlay div#tagImage {
+  top: 46px;
+  right: 34px;
+  width: 86px;
+  height: 56px;
+  background-size: 86px 56px;
+}
+
+.tablet-version div#overlay p#confTop {
+  margin-bottom: 24px;
+}
+
